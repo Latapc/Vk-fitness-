@@ -1,0 +1,6 @@
+{
+  "name": "VK FITNESS - Premium Gym in Mainpuri, UP",
+  "description": "Premium athletic gym website demo for VK FITNESS located on Radha Raman Road, Mainpuri, Uttar Pradesh. Featuring strength training, AC workout floor, personal training guidance, and direct WhatsApp enquiry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
