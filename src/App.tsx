@@ -18,7 +18,7 @@ import { MobileQuickBar } from './components/MobileQuickBar';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0a0b0e] text-[#f4f5f7] flex flex-col font-sans selection:bg-[#ccff00] selection:text-black">
+    <div className="min-h-screen bg-[#07090e] text-[#f4f5f7] flex flex-col font-sans selection:bg-[#00d2ff] selection:text-black">
       {/* 1. Independent Concept Demo Notice */}
       <DemoBanner />
 

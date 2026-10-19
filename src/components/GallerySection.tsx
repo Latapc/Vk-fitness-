@@ -68,7 +68,7 @@ export const GallerySection: React.FC = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-2xl">
-            <div className="text-xs font-bold text-[#ccff00] uppercase tracking-widest mb-2">
+            <div className="text-xs font-bold text-[#00d2ff] uppercase tracking-widest mb-2">
               Inside The Gym
             </div>
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white uppercase tracking-tight">
@@ -86,7 +86,7 @@ export const GallerySection: React.FC = () => {
               onClick={() => setActiveCategory('all')}
               className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-colors ${
                 activeCategory === 'all'
-                  ? 'bg-[#ccff00] text-black shadow-sm'
+                  ? 'bg-[#00d2ff] text-black shadow-sm'
                   : 'text-[#9aa2b2] hover:text-white'
               }`}
             >
@@ -97,7 +97,7 @@ export const GallerySection: React.FC = () => {
               onClick={() => setActiveCategory('weights')}
               className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-colors ${
                 activeCategory === 'weights'
-                  ? 'bg-[#ccff00] text-black shadow-sm'
+                  ? 'bg-[#00d2ff] text-black shadow-sm'
                   : 'text-[#9aa2b2] hover:text-white'
               }`}
             >
@@ -108,7 +108,7 @@ export const GallerySection: React.FC = () => {
               onClick={() => setActiveCategory('cardio')}
               className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-colors ${
                 activeCategory === 'cardio'
-                  ? 'bg-[#ccff00] text-black shadow-sm'
+                  ? 'bg-[#00d2ff] text-black shadow-sm'
                   : 'text-[#9aa2b2] hover:text-white'
               }`}
             >
@@ -119,7 +119,7 @@ export const GallerySection: React.FC = () => {
               onClick={() => setActiveCategory('machines')}
               className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-colors ${
                 activeCategory === 'machines'
-                  ? 'bg-[#ccff00] text-black shadow-sm'
+                  ? 'bg-[#00d2ff] text-black shadow-sm'
                   : 'text-[#9aa2b2] hover:text-white'
               }`}
             >
@@ -142,7 +142,7 @@ export const GallerySection: React.FC = () => {
               }}
               role="button"
               tabIndex={0}
-              className="group relative rounded-xl overflow-hidden bg-[#12151c] border border-[#222735] aspect-[4/3] cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ccff00]"
+              className="group relative rounded-xl overflow-hidden bg-[#12151c] border border-[#222735] aspect-[4/3] cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00d2ff]"
               aria-label={`View full image: ${item.title}`}
             >
               <img
@@ -156,7 +156,7 @@ export const GallerySection: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-85 group-hover:opacity-95 transition-opacity" />
 
               {/* Slot Indicator Tag */}
-              <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/10 text-[10px] font-bold text-[#ccff00] uppercase tracking-wider">
+              <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/10 text-[10px] font-bold text-[#00d2ff] uppercase tracking-wider">
                 <Camera size={11} />
                 <span>{item.slotNumber}</span>
               </div>
@@ -168,7 +168,7 @@ export const GallerySection: React.FC = () => {
 
               {/* Caption */}
               <div className="absolute bottom-0 inset-x-0 p-4 z-10">
-                <h3 className="font-heading font-bold text-base text-white group-hover:text-[#ccff00] transition-colors leading-snug">
+                <h3 className="font-heading font-bold text-base text-white group-hover:text-[#00d2ff] transition-colors leading-snug">
                   {item.title}
                 </h3>
                 <p className="text-xs text-[#a0a8b9] line-clamp-1 mt-0.5">
@@ -182,14 +182,14 @@ export const GallerySection: React.FC = () => {
         {/* Owner Replaceable Slot Notice */}
         <div className="mt-8 p-4 rounded-xl bg-[#13161f] border border-[#222735] flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-[#8c94a5]">
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-[#ccff00]" />
+            <span className="w-2 h-2 rounded-full bg-[#00d2ff]" />
             <span>
               <strong>Owner Photography Integration:</strong> Upload official high-resolution photos of VK FITNESS to instantly populate these display slots.
             </span>
           </div>
           <a
             href="#contact"
-            className="text-[#ccff00] hover:underline font-semibold whitespace-nowrap"
+            className="text-[#00d2ff] hover:underline font-semibold whitespace-nowrap"
           >
             Provide Gym Photos →
           </a>

@@ -14,12 +14,12 @@ export const Footer: React.FC = () => {
           {/* Col 1: Brand & Identity */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-md bg-[#ccff00] text-black font-extrabold flex items-center justify-center font-heading text-lg">
+              <div className="w-9 h-9 rounded-md bg-[#00d2ff] text-black font-extrabold flex items-center justify-center font-heading text-lg shadow-[0_0_12px_rgba(0,210,255,0.35)]">
                 VK
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-extrabold text-lg text-white tracking-tight leading-none">
-                  VK <span className="text-[#ccff00]">FITNESS</span>
+                  VK <span className="text-[#00d2ff]">FITNESS</span>
                 </span>
                 <span className="text-[10px] tracking-widest text-[#727a8c] uppercase font-semibold mt-0.5">
                   Mainpuri, Uttar Pradesh
@@ -36,14 +36,14 @@ export const Footer: React.FC = () => {
                 href={GYM_CONTACT.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-lg bg-[#141720] border border-[#232836] flex items-center justify-center text-[#c5cddb] hover:text-[#ccff00] hover:border-[#ccff00] transition-colors"
+                className="w-8 h-8 rounded-lg bg-[#141720] border border-[#232836] flex items-center justify-center text-[#c5cddb] hover:text-[#00d2ff] hover:border-[#00d2ff] transition-colors"
                 aria-label="Instagram profile"
               >
                 <Instagram size={15} />
               </a>
               <a
                 href={`tel:${GYM_CONTACT.phoneRaw}`}
-                className="w-8 h-8 rounded-lg bg-[#141720] border border-[#232836] flex items-center justify-center text-[#c5cddb] hover:text-[#ccff00] hover:border-[#ccff00] transition-colors"
+                className="w-8 h-8 rounded-lg bg-[#141720] border border-[#232836] flex items-center justify-center text-[#c5cddb] hover:text-[#00d2ff] hover:border-[#00d2ff] transition-colors"
                 aria-label="Call gym"
               >
                 <Phone size={15} />
@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
                 href={GYM_CONTACT.mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-lg bg-[#141720] border border-[#232836] flex items-center justify-center text-[#c5cddb] hover:text-[#ccff00] hover:border-[#ccff00] transition-colors"
+                className="w-8 h-8 rounded-lg bg-[#141720] border border-[#232836] flex items-center justify-center text-[#c5cddb] hover:text-[#00d2ff] hover:border-[#00d2ff] transition-colors"
                 aria-label="Google Maps directions"
               >
                 <MapPin size={15} />
@@ -67,32 +67,32 @@ export const Footer: React.FC = () => {
             </div>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="hover:text-[#ccff00] transition-colors">
+                <a href="#about" className="hover:text-[#00d2ff] transition-colors">
                   About VK FITNESS
                 </a>
               </li>
               <li>
-                <a href="#facilities" className="hover:text-[#ccff00] transition-colors">
+                <a href="#facilities" className="hover:text-[#00d2ff] transition-colors">
                   Training & Facilities
                 </a>
               </li>
               <li>
-                <a href="#gallery" className="hover:text-[#ccff00] transition-colors">
+                <a href="#gallery" className="hover:text-[#00d2ff] transition-colors">
                   Equipment Gallery
                 </a>
               </li>
               <li>
-                <a href="#enquiry" className="hover:text-[#ccff00] transition-colors">
+                <a href="#enquiry" className="hover:text-[#00d2ff] transition-colors">
                   Membership Enquiries
                 </a>
               </li>
               <li>
-                <a href="#location" className="hover:text-[#ccff00] transition-colors">
+                <a href="#location" className="hover:text-[#00d2ff] transition-colors">
                   Location & Schedule
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-[#ccff00] transition-colors">
+                <a href="#contact" className="hover:text-[#00d2ff] transition-colors">
                   Contact & WhatsApp
                 </a>
               </li>
@@ -106,20 +106,20 @@ export const Footer: React.FC = () => {
             </div>
             <div className="space-y-2 text-xs">
               <div className="flex items-start gap-2">
-                <MapPin size={14} className="text-[#ccff00] shrink-0 mt-0.5" />
+                <MapPin size={14} className="text-[#00d2ff] shrink-0 mt-0.5" />
                 <span className="text-[#cad2df]">
                   Radha Raman Rd, near Hansh Kuti Ashram, Narayanpur, Akundaiya, Mainpuri, UP 205001
                 </span>
               </div>
               <div className="flex items-start gap-2">
-                <Clock size={14} className="text-[#ccff00] shrink-0 mt-0.5" />
+                <Clock size={14} className="text-[#00d2ff] shrink-0 mt-0.5" />
                 <span className="text-[#cad2df]">
                   Mon – Sat: 5:00 AM – 10:00 PM <br />
                   <span className="text-red-400">Sunday: Closed</span>
                 </span>
               </div>
               <div className="flex items-start gap-2">
-                <Phone size={14} className="text-[#ccff00] shrink-0 mt-0.5" />
+                <Phone size={14} className="text-[#00d2ff] shrink-0 mt-0.5" />
                 <span className="text-[#cad2df]">{GYM_CONTACT.phoneDisplay}</span>
               </div>
             </div>
@@ -140,7 +140,7 @@ export const Footer: React.FC = () => {
           <button
             type="button"
             onClick={scrollToTop}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-[#13161f] border border-[#212634] text-[#a1a9b8] hover:text-[#ccff00] hover:border-[#ccff00] transition-colors self-center md:self-auto"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-[#13161f] border border-[#212634] text-[#a1a9b8] hover:text-[#00d2ff] hover:border-[#00d2ff] transition-colors self-center md:self-auto"
             aria-label="Back to top"
           >
             <span>Back to Top</span>

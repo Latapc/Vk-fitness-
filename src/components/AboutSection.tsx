@@ -8,7 +8,7 @@ export const AboutSection: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="max-w-3xl mb-14">
-          <div className="flex items-center gap-2 text-xs font-bold text-[#ccff00] uppercase tracking-widest mb-3">
+          <div className="flex items-center gap-2 text-xs font-bold text-[#00d2ff] uppercase tracking-widest mb-3">
             <span>Rooted in Mainpuri</span>
             <span className="text-[#3a4150]">·</span>
             <span className="text-[#8e96a7]">Concept Demo</span>
@@ -16,7 +16,7 @@ export const AboutSection: React.FC = () => {
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white uppercase tracking-tight leading-tight">
             Built for Results.
             <br />
-            <span className="text-[#ccff00]">Driven by Discipline.</span>
+            <span className="text-[#00d2ff]">Driven by Discipline.</span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-[#9da5b5] leading-relaxed">
             Situated on Radha Raman Road near Hansh Kuti Ashram, VK FITNESS serves fitness enthusiasts across Narayanpur, Akundaiya, and Greater Mainpuri.
@@ -39,11 +39,11 @@ export const AboutSection: React.FC = () => {
               </p>
               <div className="pt-2 flex flex-wrap gap-x-6 gap-y-2 text-xs text-[#7d8697]">
                 <div className="flex items-center gap-1.5">
-                  <ShieldCheck size={16} className="text-[#ccff00]" />
+                  <ShieldCheck size={16} className="text-[#00d2ff]" />
                   <span>Verified Google Business Listing</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <Clock size={16} className="text-[#ccff00]" />
+                  <Clock size={16} className="text-[#00d2ff]" />
                   <span>Open 17 Hours Daily (Mon-Sat)</span>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export const AboutSection: React.FC = () => {
             <div className="p-5 rounded-xl bg-[#11131a] border border-dashed border-[#2d3444] text-xs sm:text-sm text-[#8c94a5] space-y-2">
               <div className="flex items-center justify-between">
                 <span className="font-heading font-bold text-white text-xs tracking-wider uppercase flex items-center gap-1.5">
-                  <Award size={14} className="text-[#ccff00]" />
+                  <Award size={14} className="text-[#00d2ff]" />
                   Trainer & Founder Profile Slot
                 </span>
                 <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-[#202533] text-[#a0a8b9]">
@@ -70,9 +70,9 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-5 grid grid-cols-2 gap-4">
             <div className="p-5 sm:p-6 rounded-xl bg-[#13161f] border border-[#222735] flex flex-col justify-between">
               <div>
-                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#ccff00] mb-1 flex items-center gap-1">
+                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#00d2ff] mb-1 flex items-center gap-1">
                   <span>4.8</span>
-                  <Star size={24} className="fill-[#ccff00] text-[#ccff00]" />
+                  <Star size={24} className="fill-[#00d2ff] text-[#00d2ff]" />
                 </div>
                 <div className="text-xs sm:text-sm font-semibold text-white">Google Maps Rating</div>
               </div>
@@ -81,7 +81,7 @@ export const AboutSection: React.FC = () => {
 
             <div className="p-5 sm:p-6 rounded-xl bg-[#13161f] border border-[#222735] flex flex-col justify-between">
               <div>
-                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#ccff00] mb-1">
+                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#00d2ff] mb-1">
                   6 Days
                 </div>
                 <div className="text-xs sm:text-sm font-semibold text-white">5 AM – 10 PM</div>
@@ -91,7 +91,7 @@ export const AboutSection: React.FC = () => {
 
             <div className="p-5 sm:p-6 rounded-xl bg-[#13161f] border border-[#222735] flex flex-col justify-between">
               <div>
-                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#ccff00] mb-1">
+                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#00d2ff] mb-1">
                   100%
                 </div>
                 <div className="text-xs sm:text-sm font-semibold text-white">Iron Focus</div>
@@ -101,7 +101,7 @@ export const AboutSection: React.FC = () => {
 
             <div className="p-5 sm:p-6 rounded-xl bg-[#13161f] border border-[#222735] flex flex-col justify-between">
               <div>
-                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#ccff00] mb-1">
+                <div className="font-heading font-extrabold text-3xl sm:text-4xl text-[#00d2ff] mb-1">
                   UP-73
                 </div>
                 <div className="text-xs sm:text-sm font-semibold text-white">Mainpuri, UP</div>

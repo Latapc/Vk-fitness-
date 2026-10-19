@@ -16,7 +16,7 @@ export const DemoBanner: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
           <div className="flex items-center gap-2 overflow-hidden flex-1">
-            <span className="shrink-0 px-2 py-0.5 rounded bg-[#ccff00]/15 text-[#ccff00] font-bold text-[10px] sm:text-[11px] uppercase tracking-wider">
+            <span className="shrink-0 px-2 py-0.5 rounded bg-[#00d2ff]/15 text-[#00d2ff] font-bold text-[10px] sm:text-[11px] uppercase tracking-wider">
               Concept Demo
             </span>
             <p className="truncate text-[11px] sm:text-xs">
@@ -30,7 +30,7 @@ export const DemoBanner: React.FC = () => {
             <button
               type="button"
               onClick={() => setShowInfoModal(true)}
-              className="text-[#ccff00] hover:underline font-medium text-[11px] sm:text-xs whitespace-nowrap focus:outline-none focus-visible:ring-1 focus-visible:ring-[#ccff00]"
+              className="text-[#00d2ff] hover:underline font-medium text-[11px] sm:text-xs whitespace-nowrap focus:outline-none focus-visible:ring-1 focus-visible:ring-[#00d2ff]"
             >
               Details
             </button>
@@ -65,7 +65,7 @@ export const DemoBanner: React.FC = () => {
             </button>
 
             <div className="flex items-center gap-2 mb-3">
-              <span className="px-2 py-0.5 rounded bg-[#ccff00]/15 text-[#ccff00] text-xs font-bold uppercase tracking-wider">
+              <span className="px-2 py-0.5 rounded bg-[#00d2ff]/15 text-[#00d2ff] text-xs font-bold uppercase tracking-wider">
                 Demo Notice
               </span>
               <span className="text-xs text-[#7c8496]">VK FITNESS Demo</span>
@@ -95,7 +95,7 @@ export const DemoBanner: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setShowInfoModal(false)}
-                className="px-4 py-2 text-xs font-semibold rounded bg-[#ccff00] text-black hover:bg-[#b8e600] transition-colors"
+                className="px-4 py-2 text-xs font-semibold rounded bg-[#00d2ff] text-black hover:bg-[#00b4d8] transition-colors"
               >
                 Close & Explore Demo
               </button>

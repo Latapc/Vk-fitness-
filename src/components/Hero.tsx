@@ -19,16 +19,16 @@ export const Hero: React.FC = () => {
           loading="eager"
         />
         {/* Athletic Gradient Masks & Glow */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0b0e] via-[#0a0b0e]/75 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0b0e] via-[#0a0b0e]/60 to-transparent" />
-        <div className="absolute top-1/4 right-0 w-96 h-96 bg-[#ccff00]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#07090e] via-[#07090e]/75 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#07090e] via-[#07090e]/60 to-transparent" />
+        <div className="absolute top-1/4 right-0 w-96 h-96 bg-[#00d2ff]/10 rounded-full blur-3xl pointer-events-none" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto w-full text-left sm:text-center mt-6">
         {/* Unboxed Metadata Tagline (Anti-Slop compliant) */}
         <div className="inline-flex items-center gap-2 text-xs sm:text-sm text-[#c4ccd9] font-medium mb-5 bg-[#12151c]/90 border border-[#242938] px-3 py-1.5 rounded-full backdrop-blur-md max-w-full">
-          <span className="w-2 h-2 rounded-full bg-[#ccff00] shadow-[0_0_8px_#ccff00] shrink-0" />
-          <span className="text-[#ccff00] font-bold uppercase tracking-wider text-[11px] shrink-0">VK FITNESS</span>
+          <span className="w-2 h-2 rounded-full bg-[#00d2ff] shadow-[0_0_8px_#00d2ff] shrink-0" />
+          <span className="text-[#00d2ff] font-bold uppercase tracking-wider text-[11px] shrink-0">VK FITNESS</span>
           <span className="text-[#4e5668]">·</span>
           <span className="truncate">Radha Raman Rd, Mainpuri</span>
           <span className="hidden sm:inline text-[#4e5668]">·</span>
@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
         <h1 className="font-heading font-extrabold text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-white uppercase leading-[0.95] mb-6">
           YOUR FITNESS.
           <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ccff00] via-[#e5ff80] to-[#b8e600] drop-shadow-[0_0_35px_rgba(204,255,0,0.3)]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00f0ff] via-[#38bdf8] to-[#0284c7] drop-shadow-[0_0_35px_rgba(0,210,255,0.35)]">
             YOUR NEXT LEVEL.
           </span>
         </h1>
@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 max-w-md sm:max-w-none sm:mx-auto">
           <a
             href="#enquiry"
-            className="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-lg bg-[#ccff00] text-black font-heading font-extrabold text-base tracking-wide uppercase shadow-[0_0_28px_rgba(204,255,0,0.35)] hover:bg-[#b8e600] active:scale-[0.98] transition-all group"
+            className="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-lg bg-[#00d2ff] text-black font-heading font-extrabold text-base tracking-wide uppercase shadow-[0_0_28px_rgba(0,210,255,0.35)] hover:bg-[#00b4d8] active:scale-[0.98] transition-all group"
           >
             <span>Join Now</span>
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
 
           <a
             href="#facilities"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#141720]/90 border border-[#272d3b] text-white hover:text-[#ccff00] hover:border-[#ccff00] active:scale-[0.98] transition-all font-heading font-bold text-base tracking-wide uppercase backdrop-blur-sm"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-[#141720]/90 border border-[#272d3b] text-white hover:text-[#00d2ff] hover:border-[#00d2ff] active:scale-[0.98] transition-all font-heading font-bold text-base tracking-wide uppercase backdrop-blur-sm"
           >
             Explore the Gym
           </a>
@@ -76,7 +76,7 @@ export const Hero: React.FC = () => {
           </div>
           <div className="space-y-1">
             <div className="text-[11px] text-[#717a8c] uppercase tracking-wider font-semibold">Working Hours</div>
-            <div className="text-sm font-semibold text-[#ccff00]">Mon – Sat 5AM–10PM</div>
+            <div className="text-sm font-semibold text-[#00d2ff]">Mon – Sat 5AM–10PM</div>
             <div className="text-xs text-[#9da5b4]">Sunday Closed</div>
           </div>
           <div className="space-y-1">

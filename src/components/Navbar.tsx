@@ -63,15 +63,15 @@ export const Navbar: React.FC = () => {
           {/* Brand Logo */}
           <a
             href="#top"
-            className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ccff00] rounded-lg p-1"
+            className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00d2ff] rounded-lg p-1"
             aria-label="VK FITNESS Home"
           >
-            <div className="w-10 h-10 rounded-md bg-[#ccff00] text-black font-extrabold flex items-center justify-center font-heading text-xl shadow-[0_0_16px_rgba(204,255,0,0.3)] group-hover:scale-105 transition-transform">
+            <div className="w-10 h-10 rounded-md bg-[#00d2ff] text-black font-extrabold flex items-center justify-center font-heading text-xl shadow-[0_0_16px_rgba(0,210,255,0.35)] group-hover:scale-105 transition-transform">
               VK
             </div>
             <div className="flex flex-col">
               <span className="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-white leading-none">
-                VK <span className="text-[#ccff00]">FITNESS</span>
+                VK <span className="text-[#00d2ff]">FITNESS</span>
               </span>
               <span className="text-[10px] tracking-widest text-[#858d9e] uppercase font-medium mt-0.5">
                 Mainpuri · UP-73
@@ -85,7 +85,7 @@ export const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-[#9da5b4] hover:text-[#ccff00] transition-colors relative py-1 focus:outline-none focus-visible:text-[#ccff00]"
+                className="text-sm font-medium text-[#9da5b4] hover:text-[#00d2ff] transition-colors relative py-1 focus:outline-none focus-visible:text-[#00d2ff]"
               >
                 {link.name}
               </a>
@@ -101,7 +101,7 @@ export const Navbar: React.FC = () => {
             >
               <span
                 className={`w-2 h-2 rounded-full ${
-                  scheduleState.isOpen ? 'bg-[#ccff00] animate-pulse shadow-[0_0_8px_#ccff00]' : 'bg-red-500'
+                  scheduleState.isOpen ? 'bg-[#00d2ff] animate-pulse shadow-[0_0_8px_#00d2ff]' : 'bg-red-500'
                 }`}
                 aria-hidden="true"
               />
@@ -113,7 +113,7 @@ export const Navbar: React.FC = () => {
             {/* Quick Enquire Button */}
             <a
               href="#enquiry"
-              className="inline-flex items-center justify-center px-4 py-2 text-xs font-bold tracking-wide uppercase font-heading rounded-md bg-[#ccff00] text-black hover:bg-[#b8e600] active:scale-95 transition-all shadow-[0_0_18px_rgba(204,255,0,0.25)]"
+              className="inline-flex items-center justify-center px-4 py-2 text-xs font-bold tracking-wide uppercase font-heading rounded-md bg-[#00d2ff] text-black hover:bg-[#00b4d8] active:scale-95 transition-all shadow-[0_0_18px_rgba(0,210,255,0.3)]"
             >
               Enquire Now
             </a>
@@ -123,7 +123,7 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center gap-2 md:hidden">
             <a
               href={`tel:${GYM_CONTACT.phoneRaw}`}
-              className="p-2 text-[#ccff00] bg-[#141720] border border-[#252a37] rounded-md hover:bg-[#1a1f2c] transition-colors"
+              className="p-2 text-[#00d2ff] bg-[#141720] border border-[#252a37] rounded-md hover:bg-[#1a1f2c] transition-colors"
               aria-label="Call gym directly"
             >
               <Phone size={18} />
@@ -132,7 +132,7 @@ export const Navbar: React.FC = () => {
             <button
               type="button"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2.5 text-white bg-[#141720] border border-[#252a37] rounded-md hover:bg-[#1a1f2c] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ccff00]"
+              className="p-2.5 text-white bg-[#141720] border border-[#252a37] rounded-md hover:bg-[#1a1f2c] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00d2ff]"
               aria-label={isMobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
               aria-expanded={isMobileMenuOpen}
               aria-controls="mobile-navigation"
@@ -157,12 +157,12 @@ export const Navbar: React.FC = () => {
           {/* Drawer Header with Brand and Close Button */}
           <div className="flex items-center justify-between pb-4 border-b border-[#1f2430]">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-md bg-[#ccff00] text-black font-extrabold flex items-center justify-center font-heading text-lg">
+              <div className="w-9 h-9 rounded-md bg-[#00d2ff] text-black font-extrabold flex items-center justify-center font-heading text-lg shadow-[0_0_12px_rgba(0,210,255,0.35)]">
                 VK
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-extrabold text-lg text-white leading-none">
-                  VK <span className="text-[#ccff00]">FITNESS</span>
+                  VK <span className="text-[#00d2ff]">FITNESS</span>
                 </span>
                 <span className="text-[10px] tracking-widest text-[#727a8c] uppercase font-semibold mt-0.5">
                   Mainpuri · UP-73
@@ -173,7 +173,7 @@ export const Navbar: React.FC = () => {
             <button
               type="button"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="p-2 text-[#9da5b5] hover:text-white bg-[#141720] border border-[#252a37] rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ccff00]"
+              className="p-2 text-[#9da5b5] hover:text-white bg-[#141720] border border-[#252a37] rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00d2ff]"
               aria-label="Close navigation menu"
             >
               <X size={20} />
@@ -185,7 +185,7 @@ export const Navbar: React.FC = () => {
             <div className="flex items-center gap-2.5">
               <span
                 className={`w-2.5 h-2.5 rounded-full ${
-                  scheduleState.isOpen ? 'bg-[#ccff00] shadow-[0_0_8px_#ccff00]' : 'bg-red-500'
+                  scheduleState.isOpen ? 'bg-[#00d2ff] shadow-[0_0_8px_#00d2ff]' : 'bg-red-500'
                 }`}
               />
               <div>
@@ -205,7 +205,7 @@ export const Navbar: React.FC = () => {
                 key={link.name}
                 href={link.href}
                 onClick={handleLinkClick}
-                className="flex items-center justify-between py-3.5 px-3 rounded-lg text-lg font-heading font-bold text-white hover:text-[#ccff00] hover:bg-[#141720] active:bg-[#1a1e2b] transition-colors border-b border-[#181c25]"
+                className="flex items-center justify-between py-3.5 px-3 rounded-lg text-lg font-heading font-bold text-white hover:text-[#00d2ff] hover:bg-[#141720] active:bg-[#1a1e2b] transition-colors border-b border-[#181c25]"
               >
                 <span>{link.name}</span>
                 <ChevronRight size={18} className="text-[#555d70]" />
@@ -219,7 +219,7 @@ export const Navbar: React.FC = () => {
           <a
             href="#enquiry"
             onClick={handleLinkClick}
-            className="w-full py-4 px-4 rounded-xl bg-[#ccff00] text-black font-heading font-extrabold text-center block uppercase tracking-wider shadow-[0_0_20px_rgba(204,255,0,0.3)] hover:bg-[#b8e600] active:scale-[0.98] transition-all text-sm"
+            className="w-full py-4 px-4 rounded-xl bg-[#00d2ff] text-black font-heading font-extrabold text-center block uppercase tracking-wider shadow-[0_0_20px_rgba(0,210,255,0.3)] hover:bg-[#00b4d8] active:scale-[0.98] transition-all text-sm"
           >
             Join Now & Enquire
           </a>
@@ -227,18 +227,18 @@ export const Navbar: React.FC = () => {
           <div className="grid grid-cols-2 gap-3 text-xs">
             <a
               href={`tel:${GYM_CONTACT.phoneRaw}`}
-              className="flex items-center justify-center gap-2 py-3 px-2 rounded-xl bg-[#141720] border border-[#242937] text-white font-medium hover:border-[#ccff00] transition-colors"
+              className="flex items-center justify-center gap-2 py-3 px-2 rounded-xl bg-[#141720] border border-[#242937] text-white font-medium hover:border-[#00d2ff] transition-colors"
             >
-              <Phone size={14} className="text-[#ccff00]" />
+              <Phone size={14} className="text-[#00d2ff]" />
               <span>Call Gym</span>
             </a>
             <a
               href={GYM_CONTACT.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 py-3 px-2 rounded-xl bg-[#141720] border border-[#242937] text-white font-medium hover:border-[#ccff00] transition-colors"
+              className="flex items-center justify-center gap-2 py-3 px-2 rounded-xl bg-[#141720] border border-[#242937] text-white font-medium hover:border-[#00d2ff] transition-colors"
             >
-              <MapPin size={14} className="text-[#ccff00]" />
+              <MapPin size={14} className="text-[#00d2ff]" />
               <span>Directions</span>
             </a>
           </div>

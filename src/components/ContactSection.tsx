@@ -11,7 +11,7 @@ export const ContactSection: React.FC = () => {
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 border-b border-[#1c202a] bg-[#0a0b0e]">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <div className="text-xs font-bold text-[#ccff00] uppercase tracking-widest mb-2">
+          <div className="text-xs font-bold text-[#00d2ff] uppercase tracking-widest mb-2">
             Get In Touch
           </div>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white uppercase tracking-tight">
@@ -24,9 +24,9 @@ export const ContactSection: React.FC = () => {
 
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Phone Call Card */}
-          <div className="p-7 rounded-2xl bg-[#13161f] border border-[#232836] flex flex-col justify-between hover:border-[#ccff00]/40 transition-colors">
+          <div className="p-7 rounded-2xl bg-[#13161f] border border-[#232836] flex flex-col justify-between hover:border-[#00d2ff]/40 transition-colors">
             <div>
-              <div className="w-12 h-12 rounded-xl bg-[#ccff00]/10 border border-[#ccff00]/25 flex items-center justify-center text-[#ccff00] mb-4">
+              <div className="w-12 h-12 rounded-xl bg-[#00d2ff]/10 border border-[#00d2ff]/25 flex items-center justify-center text-[#00d2ff] mb-4">
                 <Phone size={24} />
               </div>
               <h3 className="font-heading font-bold text-xl text-white mb-1">Direct Phone Call</h3>
@@ -45,7 +45,7 @@ export const ContactSection: React.FC = () => {
             <div className="mt-6 pt-5 border-t border-[#1e2330]">
               <a
                 href={`tel:${GYM_CONTACT.phoneRaw}`}
-                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-4 rounded-lg bg-[#191d27] border border-[#2c3343] hover:border-[#ccff00] text-white hover:text-[#ccff00] font-heading font-bold text-xs uppercase tracking-wider transition-all"
+                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-4 rounded-lg bg-[#191d27] border border-[#2c3343] hover:border-[#00d2ff] text-white hover:text-[#00d2ff] font-heading font-bold text-xs uppercase tracking-wider transition-all"
               >
                 <Phone size={15} />
                 <span>Call {GYM_CONTACT.phoneDisplay}</span>
@@ -94,7 +94,7 @@ export const ContactSection: React.FC = () => {
             <div>
               <div className="text-sm font-bold text-white flex items-center gap-1.5 justify-center sm:justify-start">
                 <span>Instagram Profile</span>
-                <span className="text-[10px] text-[#ccff00] font-normal uppercase tracking-wider bg-[#ccff00]/10 px-1.5 py-0.2 rounded">
+                <span className="text-[10px] text-[#00d2ff] font-normal uppercase tracking-wider bg-[#00d2ff]/10 px-1.5 py-0.2 rounded">
                   Verified
                 </span>
               </div>

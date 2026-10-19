@@ -3,13 +3,13 @@
 @theme {
   --font-heading: 'Space Grotesk', sans-serif;
   --font-sans: 'Inter', sans-serif;
-  --color-electric: #ccff00;
-  --color-electric-hover: #b8e600;
-  --color-dark-base: #0a0b0e;
-  --color-dark-surface: #12141a;
-  --color-dark-card: #161820;
-  --color-dark-elevated: #1e222b;
-  --color-dark-border: #262c37;
+  --color-electric: #00d2ff;
+  --color-electric-hover: #00b4d8;
+  --color-dark-base: #07090e;
+  --color-dark-surface: #0e121a;
+  --color-dark-card: #121824;
+  --color-dark-elevated: #172030;
+  --color-dark-border: #1f2a3e;
 }
 
 :root {

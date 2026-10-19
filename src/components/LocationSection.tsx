@@ -31,7 +31,7 @@ export const LocationSection: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-bold text-[#ccff00] uppercase tracking-widest mb-2">
+          <div className="text-xs font-bold text-[#00d2ff] uppercase tracking-widest mb-2">
             Visit In Person
           </div>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white uppercase tracking-tight">
@@ -48,7 +48,7 @@ export const LocationSection: React.FC = () => {
             <div>
               <div className="flex items-center justify-between mb-6 pb-6 border-b border-[#1e2330]">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-[#ccff00]/10 border border-[#ccff00]/30 flex items-center justify-center text-[#ccff00]">
+                  <div className="w-10 h-10 rounded-lg bg-[#00d2ff]/10 border border-[#00d2ff]/30 flex items-center justify-center text-[#00d2ff]">
                     <MapPin size={20} />
                   </div>
                   <div>
@@ -61,7 +61,7 @@ export const LocationSection: React.FC = () => {
                   href={GYM_CONTACT.mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#ccff00] text-black font-heading font-bold text-xs uppercase tracking-wider hover:bg-[#b8e600] transition-colors"
+                  className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#00d2ff] text-black font-heading font-bold text-xs uppercase tracking-wider hover:bg-[#00b4d8] transition-colors shadow-[0_0_16px_rgba(0,210,255,0.3)]"
                 >
                   <Navigation size={14} />
                   <span>Get Directions</span>
@@ -85,11 +85,11 @@ export const LocationSection: React.FC = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-[#9aa3b4] pt-2">
                   <div className="p-3 rounded-lg bg-[#0e1015] border border-[#212532]">
-                    <span className="text-[#ccff00] font-bold block mb-0.5">Key Landmark</span>
+                    <span className="text-[#00d2ff] font-bold block mb-0.5">Key Landmark</span>
                     <span>Directly near Hansh Kuti Ashram</span>
                   </div>
                   <div className="p-3 rounded-lg bg-[#0e1015] border border-[#212532]">
-                    <span className="text-[#ccff00] font-bold block mb-0.5">Transit & Parking</span>
+                    <span className="text-[#00d2ff] font-bold block mb-0.5">Transit & Parking</span>
                     <span>Roadside parking for bikes & scooters</span>
                   </div>
                 </div>
@@ -97,10 +97,10 @@ export const LocationSection: React.FC = () => {
 
               {/* Interactive Stylized Dark Map Preview with Directions Trigger */}
               <div className="relative rounded-xl overflow-hidden border border-[#282e3d] bg-[#0c0e13] h-48 sm:h-56 flex flex-col items-center justify-center text-center p-6 group">
-                <div className="absolute inset-0 opacity-20 bg-[radial-gradient(#ccff00_1px,transparent_1px)] [background-size:16px_16px]" />
+                <div className="absolute inset-0 opacity-20 bg-[radial-gradient(#00d2ff_1px,transparent_1px)] [background-size:16px_16px]" />
                 
                 {/* Visual Pin */}
-                <div className="relative z-10 w-12 h-12 rounded-full bg-[#ccff00] text-black flex items-center justify-center font-heading font-extrabold text-base shadow-[0_0_24px_rgba(204,255,0,0.5)] mb-3 group-hover:scale-110 transition-transform">
+                <div className="relative z-10 w-12 h-12 rounded-full bg-[#00d2ff] text-black flex items-center justify-center font-heading font-extrabold text-base shadow-[0_0_24px_rgba(0,210,255,0.45)] mb-3 group-hover:scale-110 transition-transform">
                   <MapPin size={24} />
                 </div>
 
@@ -115,7 +115,7 @@ export const LocationSection: React.FC = () => {
                   href={GYM_CONTACT.mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative z-10 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#191d26] border border-[#313849] text-[#ccff00] hover:border-[#ccff00] hover:bg-[#1f2430] text-xs font-bold uppercase tracking-wider font-heading transition-all"
+                  className="relative z-10 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#191d26] border border-[#313849] text-[#00d2ff] hover:border-[#00d2ff] hover:bg-[#1f2430] text-xs font-bold uppercase tracking-wider font-heading transition-all"
                 >
                   <span>Launch Google Maps (External)</span>
                   <ExternalLink size={13} />
@@ -128,7 +128,7 @@ export const LocationSection: React.FC = () => {
                 href={GYM_CONTACT.mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-lg bg-[#ccff00] text-black font-heading font-bold text-xs uppercase tracking-wider"
+                className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-lg bg-[#00d2ff] text-black font-heading font-bold text-xs uppercase tracking-wider shadow-[0_0_16px_rgba(0,210,255,0.3)]"
               >
                 <Navigation size={15} />
                 <span>Get Directions in Google Maps</span>
@@ -141,7 +141,7 @@ export const LocationSection: React.FC = () => {
             <div>
               <div className="flex items-center justify-between mb-6 pb-6 border-b border-[#1e2330]">
                 <div className="flex items-center gap-2.5">
-                  <Clock size={20} className="text-[#ccff00]" />
+                  <Clock size={20} className="text-[#00d2ff]" />
                   <h3 className="font-heading font-bold text-lg text-white">Operating Schedule</h3>
                 </div>
 
@@ -149,13 +149,13 @@ export const LocationSection: React.FC = () => {
                 <div
                   className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
                     schedule.isOpen
-                      ? 'bg-[#ccff00]/15 text-[#ccff00] border border-[#ccff00]/30'
+                      ? 'bg-[#00d2ff]/15 text-[#00d2ff] border border-[#00d2ff]/30'
                       : 'bg-red-500/15 text-red-400 border border-red-500/30'
                   }`}
                 >
                   <span
                     className={`w-2 h-2 rounded-full ${
-                      schedule.isOpen ? 'bg-[#ccff00] animate-pulse' : 'bg-red-400'
+                      schedule.isOpen ? 'bg-[#00d2ff] animate-pulse shadow-[0_0_8px_#00d2ff]' : 'bg-red-400'
                     }`}
                   />
                   <span>{schedule.isOpen ? 'Open Now' : 'Closed'}</span>
@@ -164,7 +164,7 @@ export const LocationSection: React.FC = () => {
 
               {/* Status Note */}
               <div className="p-3.5 rounded-lg bg-[#0e1015] border border-[#202532] text-xs text-[#a3abbb] mb-6">
-                <span className="text-[#ccff00] font-semibold block mb-0.5">Current Status:</span>
+                <span className="text-[#00d2ff] font-semibold block mb-0.5">Current Status:</span>
                 <span>{schedule.statusText}</span>
               </div>
 
@@ -180,16 +180,16 @@ export const LocationSection: React.FC = () => {
                       }`}
                     >
                       <div className="flex items-center gap-2">
-                        {isToday && <span className="w-1.5 h-1.5 rounded-full bg-[#ccff00]" />}
+                        {isToday && <span className="w-1.5 h-1.5 rounded-full bg-[#00d2ff]" />}
                         <span className={isToday ? 'text-white' : ''}>{item.day}</span>
                         {isToday && (
-                          <span className="text-[10px] text-[#ccff00] uppercase font-bold tracking-wider">
+                          <span className="text-[10px] text-[#00d2ff] uppercase font-bold tracking-wider">
                             (Today)
                           </span>
                         )}
                       </div>
 
-                      <div className={item.open ? (isToday ? 'text-[#ccff00]' : 'text-[#c6cfdd]') : 'text-red-400'}>
+                      <div className={item.open ? (isToday ? 'text-[#00d2ff]' : 'text-[#c6cfdd]') : 'text-red-400'}>
                         {item.hours}
                       </div>
                     </div>

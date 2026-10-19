@@ -64,7 +64,7 @@ export const GalleryLightbox: React.FC<GalleryLightboxProps> = ({
       <button
         type="button"
         onClick={onClose}
-        className="absolute top-4 right-4 z-10 p-2.5 rounded-full bg-[#161922] text-[#c2c9d6] hover:text-white hover:bg-[#232836] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ccff00]"
+        className="absolute top-4 right-4 z-10 p-2.5 rounded-full bg-[#161922] text-[#c2c9d6] hover:text-white hover:bg-[#232836] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00d2ff]"
         aria-label="Close photo preview"
       >
         <X size={22} />
@@ -77,7 +77,7 @@ export const GalleryLightbox: React.FC<GalleryLightboxProps> = ({
           const prevIndex = (currentIndex - 1 + photos.length) % photos.length;
           onNavigate(photos[prevIndex]);
         }}
-        className="absolute left-3 sm:left-6 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#161922]/80 text-white hover:bg-[#232836] hover:text-[#ccff00] transition-colors focus:outline-none"
+        className="absolute left-3 sm:left-6 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#161922]/80 text-white hover:bg-[#232836] hover:text-[#00d2ff] transition-colors focus:outline-none"
         aria-label="Previous photo"
       >
         <ChevronLeft size={24} />
@@ -89,7 +89,7 @@ export const GalleryLightbox: React.FC<GalleryLightboxProps> = ({
           const nextIndex = (currentIndex + 1) % photos.length;
           onNavigate(photos[nextIndex]);
         }}
-        className="absolute right-3 sm:right-6 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#161922]/80 text-white hover:bg-[#232836] hover:text-[#ccff00] transition-colors focus:outline-none"
+        className="absolute right-3 sm:right-6 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#161922]/80 text-white hover:bg-[#232836] hover:text-[#00d2ff] transition-colors focus:outline-none"
         aria-label="Next photo"
       >
         <ChevronRight size={24} />
@@ -107,7 +107,7 @@ export const GalleryLightbox: React.FC<GalleryLightboxProps> = ({
           <div className="p-4 sm:p-5 bg-[#12151d] border-t border-[#222735] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <div className="flex items-center gap-2 mb-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-[#ccff00]/15 text-[#ccff00]">
+                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-[#00d2ff]/15 text-[#00d2ff]">
                   {photo.slotNumber}
                 </span>
                 <span className="text-xs text-[#7d8697]">Design Placeholder</span>

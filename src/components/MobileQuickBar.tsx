@@ -18,7 +18,7 @@ export const MobileQuickBar: React.FC = () => {
           href={`tel:${GYM_CONTACT.phoneRaw}`}
           className="flex items-center justify-center gap-2 py-3 px-3 rounded-xl bg-[#141720] border border-[#262c3b] active:bg-[#1a1f2b] text-white font-heading font-bold text-xs uppercase tracking-wider transition-colors min-h-[46px]"
         >
-          <Phone size={15} className="text-[#ccff00]" />
+          <Phone size={15} className="text-[#00d2ff]" />
           <span>Call Gym</span>
         </a>
 

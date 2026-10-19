@@ -58,7 +58,7 @@ export const MembershipEnquiry: React.FC = () => {
           {/* Left Column: Transparency & Value */}
           <div className="lg:col-span-5 space-y-6">
             <div>
-              <div className="text-xs font-bold text-[#ccff00] uppercase tracking-widest mb-2">
+              <div className="text-xs font-bold text-[#00d2ff] uppercase tracking-widest mb-2">
                 Membership & Access
               </div>
               <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white uppercase tracking-tight">
@@ -72,7 +72,7 @@ export const MembershipEnquiry: React.FC = () => {
             {/* Zero Fabricated Pricing Policy Box */}
             <div className="p-6 rounded-xl bg-[#13161f] border border-[#262c3a] space-y-3">
               <div className="flex items-center gap-2 text-white font-heading font-bold text-base">
-                <ShieldCheck size={20} className="text-[#ccff00]" />
+                <ShieldCheck size={20} className="text-[#00d2ff]" />
                 <span>Honest Pricing Policy</span>
               </div>
               <p className="text-xs sm:text-sm text-[#9ba3b4] leading-relaxed">
@@ -80,19 +80,19 @@ export const MembershipEnquiry: React.FC = () => {
               </p>
               <div className="pt-2 border-t border-[#1e2330] grid grid-cols-2 gap-3 text-xs text-[#cad1de]">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-[#ccff00]">✔</span>
+                  <span className="text-[#00d2ff]">✔</span>
                   <span>Monthly Passes</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span className="text-[#ccff00]">✔</span>
+                  <span className="text-[#00d2ff]">✔</span>
                   <span>Quarterly Packages</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span className="text-[#ccff00]">✔</span>
+                  <span className="text-[#00d2ff]">✔</span>
                   <span>Annual Membership</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span className="text-[#ccff00]">✔</span>
+                  <span className="text-[#00d2ff]">✔</span>
                   <span>PT Guidance Slots</span>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export const MembershipEnquiry: React.FC = () => {
               </div>
               <a
                 href={`tel:${GYM_CONTACT.phoneRaw}`}
-                className="px-4 py-2 rounded-lg bg-[#1a1e28] border border-[#2b3242] text-[#ccff00] hover:border-[#ccff00] text-xs font-bold uppercase tracking-wider font-heading flex items-center gap-1.5 transition-colors"
+                className="px-4 py-2 rounded-lg bg-[#1a1e28] border border-[#2b3242] text-[#00d2ff] hover:border-[#00d2ff] text-xs font-bold uppercase tracking-wider font-heading flex items-center gap-1.5 transition-colors"
               >
                 <Phone size={14} />
                 <span>Call Now</span>
@@ -125,9 +125,9 @@ export const MembershipEnquiry: React.FC = () => {
               </p>
 
               {submitted && (
-                <div className="mb-6 p-4 rounded-xl bg-[#ccff00]/10 border border-[#ccff00]/30 text-xs sm:text-sm text-[#ccff00] space-y-2">
+                <div className="mb-6 p-4 rounded-xl bg-[#00d2ff]/10 border border-[#00d2ff]/30 text-xs sm:text-sm text-[#00d2ff] space-y-2">
                   <div className="flex items-center gap-2 font-bold text-white">
-                    <CheckCircle2 size={18} className="text-[#ccff00]" />
+                    <CheckCircle2 size={18} className="text-[#00d2ff]" />
                     <span>Enquiry Generated Successfully!</span>
                   </div>
                   <p className="text-[#c6cfdd]">
@@ -146,9 +146,9 @@ export const MembershipEnquiry: React.FC = () => {
                     <button
                       type="button"
                       onClick={handleCopy}
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-[#1a1e29] border border-[#2e3546] text-white text-xs hover:border-[#ccff00] transition-colors"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-[#1a1e29] border border-[#2e3546] text-white text-xs hover:border-[#00d2ff] transition-colors"
                     >
-                      {copied ? <Check size={13} className="text-[#ccff00]" /> : <Copy size={13} />}
+                      {copied ? <Check size={13} className="text-[#00d2ff]" /> : <Copy size={13} />}
                       <span>{copied ? 'Copied to Clipboard!' : 'Copy Query Text'}</span>
                     </button>
                   </div>
@@ -159,7 +159,7 @@ export const MembershipEnquiry: React.FC = () => {
                 {/* Full Name */}
                 <div>
                   <label htmlFor="enquiry-name" className="block text-xs font-semibold uppercase tracking-wider text-[#98a1b2] mb-1.5">
-                    Full Name <span className="text-[#ccff00]">*</span>
+                    Full Name <span className="text-[#00d2ff]">*</span>
                   </label>
                   <input
                     type="text"
@@ -169,7 +169,7 @@ export const MembershipEnquiry: React.FC = () => {
                     onChange={handleChange}
                     placeholder="e.g. Rahul Sharma"
                     className={`w-full px-4 py-3 rounded-lg bg-[#0e1015] border text-white text-sm focus:outline-none transition-colors ${
-                      errors.name ? 'border-red-500 focus:border-red-500' : 'border-[#242936] focus:border-[#ccff00]'
+                      errors.name ? 'border-red-500 focus:border-red-500' : 'border-[#242936] focus:border-[#00d2ff]'
                     }`}
                   />
                   {errors.name && (
@@ -183,7 +183,7 @@ export const MembershipEnquiry: React.FC = () => {
                 {/* Phone Number */}
                 <div>
                   <label htmlFor="enquiry-phone" className="block text-xs font-semibold uppercase tracking-wider text-[#98a1b2] mb-1.5">
-                    Phone / WhatsApp Number <span className="text-[#ccff00]">*</span>
+                    Phone / WhatsApp Number <span className="text-[#00d2ff]">*</span>
                   </label>
                   <input
                     type="tel"
@@ -193,7 +193,7 @@ export const MembershipEnquiry: React.FC = () => {
                     onChange={handleChange}
                     placeholder="e.g. 9876543210 or +91 70171 06874"
                     className={`w-full px-4 py-3 rounded-lg bg-[#0e1015] border text-white text-sm focus:outline-none transition-colors ${
-                      errors.phone ? 'border-red-500 focus:border-red-500' : 'border-[#242936] focus:border-[#ccff00]'
+                      errors.phone ? 'border-red-500 focus:border-red-500' : 'border-[#242936] focus:border-[#00d2ff]'
                     }`}
                   />
                   {errors.phone && (
@@ -215,7 +215,7 @@ export const MembershipEnquiry: React.FC = () => {
                       name="goal"
                       value={formData.goal}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-lg bg-[#0e1015] border border-[#242936] text-white text-sm focus:outline-none focus:border-[#ccff00] transition-colors cursor-pointer"
+                      className="w-full px-4 py-3 rounded-lg bg-[#0e1015] border border-[#242936] text-white text-sm focus:outline-none focus:border-[#00d2ff] transition-colors cursor-pointer"
                     >
                       <option value="Strength & Muscle Building">Strength & Muscle Building</option>
                       <option value="Weight Loss & Conditioning">Weight Loss & Conditioning</option>
@@ -234,7 +234,7 @@ export const MembershipEnquiry: React.FC = () => {
                       name="batchSlot"
                       value={formData.batchSlot}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-lg bg-[#0e1015] border border-[#242936] text-white text-sm focus:outline-none focus:border-[#ccff00] transition-colors cursor-pointer"
+                      className="w-full px-4 py-3 rounded-lg bg-[#0e1015] border border-[#242936] text-white text-sm focus:outline-none focus:border-[#00d2ff] transition-colors cursor-pointer"
                     >
                       <option value="Early Morning (5:00 AM – 7:30 AM)">Early Morning (5:00 AM – 7:30 AM)</option>
                       <option value="Morning (7:30 AM – 10:00 AM)">Morning (7:30 AM – 10:00 AM)</option>
@@ -257,7 +257,7 @@ export const MembershipEnquiry: React.FC = () => {
                     value={formData.customMessage}
                     onChange={handleChange}
                     placeholder="e.g. Can I take a trial workout before joining? Or do you have student discounts?"
-                    className="w-full px-4 py-3 rounded-lg bg-[#0e1015] border border-[#242936] text-white text-sm focus:outline-none focus:border-[#ccff00] transition-colors resize-none"
+                    className="w-full px-4 py-3 rounded-lg bg-[#0e1015] border border-[#242936] text-white text-sm focus:outline-none focus:border-[#00d2ff] transition-colors resize-none"
                   />
                 </div>
 
@@ -265,7 +265,7 @@ export const MembershipEnquiry: React.FC = () => {
                 <div className="pt-2">
                   <button
                     type="submit"
-                    className="w-full py-4 px-6 rounded-lg bg-[#ccff00] text-black font-heading font-extrabold text-sm sm:text-base tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-[#b8e600] active:scale-[0.99] transition-all shadow-[0_0_24px_rgba(204,255,0,0.25)]"
+                    className="w-full py-4 px-6 rounded-lg bg-[#00d2ff] text-black font-heading font-extrabold text-sm sm:text-base tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-[#00b4d8] active:scale-[0.99] transition-all shadow-[0_0_24px_rgba(0,210,255,0.3)]"
                   >
                     <MessageSquare size={18} />
                     <span>Send Enquiry to VK FITNESS (WhatsApp)</span>

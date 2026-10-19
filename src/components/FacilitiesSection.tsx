@@ -22,7 +22,7 @@ export const FacilitiesSection: React.FC = () => {
       isVerified: true,
       description: 'Extensive dumbbell racks ranging from light weights to heavy bodybuilding iron, Olympic standard barbells, and adjustable incline/flat benches.',
       details: ['Olympic Barbell Sets', 'Multi-Angle Benches', 'Plate-Loaded Stations', 'Squat & Press Area'],
-      icon: <Dumbbell className="text-[#ccff00]" size={24} />,
+      icon: <Dumbbell className="text-[#00d2ff]" size={24} />,
     },
     {
       id: 'cardio-zone',
@@ -31,7 +31,7 @@ export const FacilitiesSection: React.FC = () => {
       isVerified: true,
       description: 'Dedicated cardiovascular equipment including heavy-duty motorized treadmills and spin cycle units to boost stamina, fat loss, and heart health.',
       details: ['Commercial Treadmills', 'Indoor Spin Bikes', 'Warm-Up & Stretching Space', 'Aerobic Stamina Training'],
-      icon: <Activity className="text-[#ccff00]" size={24} />,
+      icon: <Activity className="text-[#00d2ff]" size={24} />,
     },
     {
       id: 'ac-floor',
@@ -40,7 +40,7 @@ export const FacilitiesSection: React.FC = () => {
       isVerified: true,
       description: 'Fully AC equipped workout hall engineered to maintain steady airflow and comfortable temperature during hot and humid Uttar Pradesh seasons.',
       details: ['High-Capacity AC Units', 'Proper Ventilation Flow', 'Spacious Floor Layout', 'Clean & Sanitized Floor'],
-      icon: <Wind className="text-[#ccff00]" size={24} />,
+      icon: <Wind className="text-[#00d2ff]" size={24} />,
     },
     {
       id: 'personal-coaching',
@@ -49,7 +49,7 @@ export const FacilitiesSection: React.FC = () => {
       isVerified: true,
       description: 'On-floor guidance for proper lifting mechanics, beginner routine onboarding, and injury-prevention coaching to optimize muscle building.',
       details: ['Beginner Form Correction', 'Progressive Overload Guidance', 'Targeted Split Planning', 'Direct Floor Assistance'],
-      icon: <UserCheck className="text-[#ccff00]" size={24} />,
+      icon: <UserCheck className="text-[#00d2ff]" size={24} />,
     },
     {
       id: 'functional-rig',
@@ -83,7 +83,7 @@ export const FacilitiesSection: React.FC = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-2xl">
-            <div className="text-xs font-bold text-[#ccff00] uppercase tracking-widest mb-2">
+            <div className="text-xs font-bold text-[#00d2ff] uppercase tracking-widest mb-2">
               Training & Facilities
             </div>
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white uppercase tracking-tight">
@@ -101,7 +101,7 @@ export const FacilitiesSection: React.FC = () => {
               onClick={() => setActiveFilter('all')}
               className={`px-3.5 py-1.5 text-xs font-semibold rounded-md transition-colors ${
                 activeFilter === 'all'
-                  ? 'bg-[#ccff00] text-black shadow-sm'
+                  ? 'bg-[#00d2ff] text-black shadow-sm'
                   : 'text-[#9aa2b2] hover:text-white'
               }`}
             >
@@ -112,7 +112,7 @@ export const FacilitiesSection: React.FC = () => {
               onClick={() => setActiveFilter('verified')}
               className={`px-3.5 py-1.5 text-xs font-semibold rounded-md transition-colors ${
                 activeFilter === 'verified'
-                  ? 'bg-[#ccff00] text-black shadow-sm'
+                  ? 'bg-[#00d2ff] text-black shadow-sm'
                   : 'text-[#9aa2b2] hover:text-white'
               }`}
             >
@@ -123,7 +123,7 @@ export const FacilitiesSection: React.FC = () => {
               onClick={() => setActiveFilter('owner-slots')}
               className={`px-3.5 py-1.5 text-xs font-semibold rounded-md transition-colors ${
                 activeFilter === 'owner-slots'
-                  ? 'bg-[#ccff00] text-black shadow-sm'
+                  ? 'bg-[#00d2ff] text-black shadow-sm'
                   : 'text-[#9aa2b2] hover:text-white'
               }`}
             >
@@ -139,7 +139,7 @@ export const FacilitiesSection: React.FC = () => {
               key={item.id}
               className={`p-6 sm:p-7 rounded-xl transition-all duration-200 flex flex-col justify-between ${
                 item.isVerified
-                  ? 'bg-[#12151c] border border-[#222735] hover:border-[#ccff00]/40 hover:-translate-y-1'
+                  ? 'bg-[#12151c] border border-[#222735] hover:border-[#00d2ff]/40 hover:-translate-y-1'
                   : 'bg-[#101217] border border-dashed border-[#29303e] opacity-80'
               }`}
             >
@@ -148,7 +148,7 @@ export const FacilitiesSection: React.FC = () => {
                   <div
                     className={`w-12 h-12 rounded-lg flex items-center justify-center ${
                       item.isVerified
-                        ? 'bg-[#ccff00]/10 border border-[#ccff00]/20'
+                        ? 'bg-[#00d2ff]/10 border border-[#00d2ff]/20'
                         : 'bg-[#1c202a] border border-[#272d3b]'
                     }`}
                   >
@@ -158,7 +158,7 @@ export const FacilitiesSection: React.FC = () => {
                   <span
                     className={`text-[11px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${
                       item.isVerified
-                        ? 'bg-[#ccff00]/15 text-[#ccff00]'
+                        ? 'bg-[#00d2ff]/15 text-[#00d2ff]'
                         : 'bg-[#232836] text-[#8e97a8]'
                     }`}
                   >
@@ -178,7 +178,7 @@ export const FacilitiesSection: React.FC = () => {
               <div className="pt-4 border-t border-[#1a1f29] space-y-2">
                 {item.details.map((detail, idx) => (
                   <div key={idx} className="flex items-center gap-2 text-xs text-[#b0b8c7]">
-                    <Check size={13} className={item.isVerified ? 'text-[#ccff00]' : 'text-[#6c7484]'} />
+                    <Check size={13} className={item.isVerified ? 'text-[#00d2ff]' : 'text-[#6c7484]'} />
                     <span>{detail}</span>
                   </div>
                 ))}
